@@ -1,12 +1,10 @@
 import React from "react";
-import BravoSWrapper from "./BravoSWrapper";
-import { Link } from "react-router-dom";
+import TelefonNarxlariWrapper from "./TelefonNarxlariWrapper";
 
-const BravoS = () => {
+const TelefonNarxlari = () => {
   return (
-    <BravoSWrapper>
-      {" "}
-      <h1>Bravo</h1>
+    <TelefonNarxlariWrapper>
+      <h1>TElefon naxrlari</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. In nemo tempore
         reprehenderit, voluptas excepturi quia expedita tenetur id similique
@@ -18,11 +16,8 @@ const BravoS = () => {
         cupiditate dolores consequatur quaerat optio perspiciatis, laborum
         omnis? Labore!
       </p>
-      <Link key="/" to="/">
-        HOME
-      </Link>
-    </BravoSWrapper>
+    </TelefonNarxlariWrapper>
   );
 };
 
-export default BravoS;
+export default TelefonNarxlari;

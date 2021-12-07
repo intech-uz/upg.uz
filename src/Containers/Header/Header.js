@@ -9,23 +9,16 @@ import HeaderWrapper from "./HeaderWrapper";
 
 import { List, ListItem } from "@material-ui/core";
 import Button from "@restart/ui/esm/Button";
-import {
-  faBars,
-  faHome,
-  faImages,
-  faNewspaper,
-  faTasks,
-  faUsers,
-  faVideo,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faHome, faVideo } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const menus = [
-  { to: "", title: "Umumiy konsertlar", icon: faHome },
-  { to: "million", title: "Million konsertlari", icon: faVideo },
-  { to: "bravo", title: "Bravo konsertlari", icon: faVideo },
-  { to: "qvz", title: "Qvz konsertlari", icon: faVideo },
-  { to: "uzbekKonsert", title: "Uzbek konsertlari", icon: faVideo },
+  { to: "", title: "Bosh sahifa", icon: faHome },
+  { to: "million", title: "Solishtiruv", icon: faVideo },
+  { to: "bravo", title: "Telefon narxlari", icon: faVideo },
+  { to: "qvz", title: "Brendlar", icon: faVideo },
+  { to: "uzbekKonsert", title: "3D Model", icon: faVideo },
+  { to: "uzbekKonsert", title: "Telefon Videolari", icon: faVideo },
 ];
 
 const Dashboard = ({ children }) => {
@@ -37,7 +30,9 @@ const Dashboard = ({ children }) => {
   return (
     <HeaderWrapper>
       <div className={`sidebar ${(show && "show") || ""}`}>
-        <h1 className="text-white">Konsertlar</h1>
+        <div>
+          <h1 className="text-white">intech</h1>
+        </div>
 
         <List component="nav">
           {menus.map((v, i) => (

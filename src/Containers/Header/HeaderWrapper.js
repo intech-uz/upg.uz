@@ -6,14 +6,7 @@ const HeaderWrapper = styled.div`
     flex-shrink: 0;
     width: 0;
     overflow: hidden;
-    background-image: linear-gradient(
-      to right bottom,
-      #92b7f6,
-      #b1c2f6,
-      #c9cef5,
-      #dddbf5,
-      #edeaf6
-    );
+    background-color: #242730;
     transition: 0.3s;
     height: 100vh;
     position: sticky;
@@ -36,6 +29,7 @@ const HeaderWrapper = styled.div`
             color: black !important;
             margin-bottom: 10px !important;
             transition: 0.3s !important;
+
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3) !important;
             min-width: 200px !important;
             overflow: hidden !important;
@@ -56,29 +50,15 @@ const HeaderWrapper = styled.div`
   }
   .rightside {
     flex: 1;
-    background-image: linear-gradient(
-      to right,
-      #e3e9f2,
-      #d1d7e6,
-      #c1c5da,
-      #b3b3cd,
-      #a8a0bf
-    );
-    /* flex: 1 1 0%; */
-    /* overflow-x: hidden; */
+    background-color: #242730;
+    color: white;
     position: relative;
+
     header {
       padding: 20px;
       position: sticky;
       top: 0;
-      background-image: radial-gradient(
-        circle,
-        #edf0f5,
-        #eaeef7,
-        #e8ebf9,
-        #e8e8fb,
-        #eae4fb
-      );
+
       z-index: 1000;
       .logo {
         height: 40px;

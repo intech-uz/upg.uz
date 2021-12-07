@@ -9,5 +9,5 @@ const store = createStore(
   reducer,
   composeWithDevTools(applyMiddleware(...middleware))
 );
-export const dipatch = store.dispatch();
+
 export default store;

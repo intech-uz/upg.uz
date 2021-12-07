@@ -6,10 +6,8 @@ import "./App.css";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import Home from "./pages/home";
-import Million from "./pages/million";
-import Bravo from "./pages/bravo";
-import Qvz from "./pages/qvz";
-import UzbekKonsert from "./pages/uzbkonsert";
+import Narxlar from "./pages/narxlar";
+import Solishtiruv from "./Containers/Solishtiruv";
 
 function App() {
   return (
@@ -20,20 +18,11 @@ function App() {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/million" exact>
-              <Million />
+            <Route path="/narxlar" exact>
+              <Narxlar />
             </Route>
-            <Route path="/bravo" exact>
-              <Bravo />
-            </Route>
-            <Route path="/qvz" exact>
-              <Qvz />
-            </Route>
-            <Route path="/uzbekKonsert" exact>
-              <UzbekKonsert />
-            </Route>
-            <Route path="/posts" exact>
-              <Million />
+            <Route path="/solishtiruv" exact>
+              <Solishtiruv />
             </Route>
           </Switch>
         </div>
