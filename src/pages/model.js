@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Containers/Header";
 import Solishtiruv from "../Containers/Solishtiruv";
 
-const Solishtiruvpage = () => {
+const Model = () => {
   return (
     <Header>
       <Solishtiruv />
@@ -10,4 +10,4 @@ const Solishtiruvpage = () => {
   );
 };
 
-export default Solishtiruvpage;
+export default Model;

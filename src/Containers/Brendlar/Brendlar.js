@@ -1,8 +1,12 @@
 import React from "react";
-import BravoSWrapper from "./BrendlarWrapper";
+import BrendlarWrapper from "./BrendlarWrapper";
 
 const Brendlar = () => {
-  return <BrebnlarWrapper></BrebnlarWrapper>;
+  return (
+    <BrendlarWrapper>
+      <h1>Brend</h1>
+    </BrendlarWrapper>
+  );
 };
 
 export default Brendlar;

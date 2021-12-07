@@ -1,13 +1,15 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import Home from "./pages/home";
 import Narxlar from "./pages/narxlar";
-import Solishtiruv from "./Containers/Solishtiruv";
+import Solishtiruvpage from "./pages/solishtiruv";
+import Brendlarpage from "./pages/brendlar";
+import Video from "./pages/video";
+import Model from "./pages/model";
 
 function App() {
   return (
@@ -22,7 +24,16 @@ function App() {
               <Narxlar />
             </Route>
             <Route path="/solishtiruv" exact>
-              <Solishtiruv />
+              <Solishtiruvpage />
+            </Route>
+            <Route path="/brendlar" exact>
+              <Brendlarpage />
+            </Route>
+            <Route path="/videolar" exact>
+              <Video />
+            </Route>
+            <Route path="/model" exact>
+              <Model />
             </Route>
           </Switch>
         </div>

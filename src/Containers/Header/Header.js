@@ -14,11 +14,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const menus = [
   { to: "", title: "Bosh sahifa", icon: faHome },
-  { to: "million", title: "Solishtiruv", icon: faVideo },
-  { to: "bravo", title: "Telefon narxlari", icon: faVideo },
-  { to: "qvz", title: "Brendlar", icon: faVideo },
-  { to: "uzbekKonsert", title: "3D Model", icon: faVideo },
-  { to: "uzbekKonsert", title: "Telefon Videolari", icon: faVideo },
+  { to: "solishtiruv", title: "Solishtiruv", icon: faVideo },
+  { to: "narxlar", title: "Telefon narxlari", icon: faVideo },
+  { to: "brendlar", title: "Brendlar", icon: faVideo },
+  { to: "model", title: "3D Model", icon: faVideo },
+  { to: "videolar", title: "Telefon Videolari", icon: faVideo },
 ];
 
 const Dashboard = ({ children }) => {
